@@ -189,3 +189,12 @@ if (document.getElementById('stop-share')) {
     document.getElementById('stop-share').addEventListener('click', stopScreenSharing)
 }
 document.getElementById('record-btn').addEventListener('click', toggleRecord)
+
+const choices = document.querySelectorAll('.choice');
+
+choices.forEach(choice => {
+    choice.addEventListener('click', function() {
+        choices.forEach(c => c.style.backgroundColor = '');
+        this.style.backgroundColor = '#EE4B2B';
+    });
+});
