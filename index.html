@@ -57,17 +57,30 @@
         <div id="video-streams"></div>
 
         <div id="stream-controls">
-            <button id="leave-btn">Leave Stream</button>
-            <button id="mic-btn">Mic On</button>
-            <button id="camera-btn">Camera on</button>
+            <div>
+                <button id="leave-btn">Leave Stream</button>
+                <button id="mic-btn">Mic On</button>
+                <button id="camera-btn">Camera on</button>
+            </div>
+            
             <div id="screen-share">
                 <button id="start-share">Start Share</button>
             </div>
-            <button id="record-btn">Record on</button>
+            <div>
+                <button id="record-btn">Record on</button>
+            </div>
+            <div id="multiple-choice">
+                <button class="choice" data-choice="A">A</button>
+                <button class="choice" data-choice="B">B</button>
+                <button class="choice" data-choice="C">C</button>
+                <button class="choice" data-choice="D">D</button>
+            </div>            
             <div>
                 <textarea class="editor" name="editor"></textarea>
             </div>
-            <button id="send-comment-btn">Send Comment</button>
+            <div>
+                <button id="send-comment-btn">Send Comment</button>
+            </div>
             <div id="comments-display-area"></div>
         </div>
     </div>
