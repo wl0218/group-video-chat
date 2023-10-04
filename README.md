@@ -15,7 +15,7 @@ This project is a fork of [group-video-chat](https://github.com/divanov11/group-
 * 3 - Update Temp Token and Channel Name in script.js
 
 account: tinawang19970218@gmail.com
-password: P7LfjNkqpCrMPkP!
+password: Q2wS6zG7@y5BdZy
 
 
 # Usage
